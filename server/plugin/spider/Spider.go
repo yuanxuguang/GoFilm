@@ -44,7 +44,7 @@ var SiteList = []Site{
 	//{"leshi", "https://leshizyapi.com/api.php/provide/vod/at/json"}, 乐视
 	//{"lz_bk", "https://cj.lzcaiji.com/api.php/provide/vod/"},
 	//{"fs", "https://www.feisuzyapi.com/api.php/provide/vod/"},
-	//{"su", "https://subocaiji.com/api.php/provide/vod/at/json"},
+	{"su", "https://subocaiji.com/api.php/provide/vod/at/json"},
 	//{"bf", "https://bfzyapi.com/api.php/provide/vod/"},
 	//{"ff", "https://svip.ffzyapi8.com/api.php/provide/vod/"},
 
@@ -53,6 +53,8 @@ var SiteList = []Site{
 	{"kk", "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan"},
 	{"bf", "http://by.bfzyapi.com/api.php/provide/vod/"},
 	{"ff", "https://cj.ffzyapi.com/api.php/provide/vod/"},
+	{"modu", "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list"},
+	{"modu", "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list"},
 }
 
 // StartSpider 执行多源spider
