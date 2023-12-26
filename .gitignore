@@ -22,3 +22,6 @@ package-lock.json
 
 .idea/
 .idea
+
+# 忽略config下的配置文件
+server/config/DataConfig.go

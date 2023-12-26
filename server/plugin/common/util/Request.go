@@ -36,7 +36,7 @@ func CreateClient() *colly.Collector {
 	c := colly.NewCollector()
 
 	// 设置请求使用clash的socks5代理
-	setProxy(c)
+	// setProxy(c)
 
 	// 设置代理信息
 	//if proxy, err := proxy.RoundRobinProxySwitcher("127.0.0.1:7890"); err != nil {
@@ -49,7 +49,7 @@ func CreateClient() *colly.Collector {
 	//可重复访问
 	c.AllowURLRevisit = true
 	// 设置超时时间 默认10s
-	c.SetRequestTimeout(20 * time.Second)
+	c.SetRequestTimeout(50 * time.Second)
 	// 发起请求之前会调用的方法
 	c.OnRequest(func(request *colly.Request) {
 		// 设置一些请求头信息

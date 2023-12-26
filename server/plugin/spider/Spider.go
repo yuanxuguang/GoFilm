@@ -30,7 +30,7 @@ import (
 */
 
 const (
-	MainSite = "https://cj.lzcaiji.com/api.php/provide/vod/"
+	MainSite = "https://leshizyapi.com/api.php/provide/vod/at/json"
 )
 
 type Site struct {
@@ -41,6 +41,7 @@ type Site struct {
 // SiteList 播放源采集站
 var SiteList = []Site{
 	// 备用采集站
+	//{"leshi", "https://leshizyapi.com/api.php/provide/vod/at/json"}, 乐视
 	//{"lz_bk", "https://cj.lzcaiji.com/api.php/provide/vod/"},
 	//{"fs", "https://www.feisuzyapi.com/api.php/provide/vod/"},
 	//{"su", "https://subocaiji.com/api.php/provide/vod/at/json"},
@@ -48,6 +49,7 @@ var SiteList = []Site{
 	//{"ff", "https://svip.ffzyapi8.com/api.php/provide/vod/"},
 
 	//{"lz", "https://cj.lziapi.com/api.php/provide/vod/"},
+	// {"leshi", "https://leshivideoplayurl.com/?url="},
 	{"kk", "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan"},
 	{"bf", "http://by.bfzyapi.com/api.php/provide/vod/"},
 	{"ff", "https://cj.ffzyapi.com/api.php/provide/vod/"},
